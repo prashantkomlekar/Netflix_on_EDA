@@ -1,0 +1,31 @@
+1. Title: Netflix Movies and TV Shows (with social/entertainment context)
+
+2. Sources
+   https://www.kaggle.com/datasets/shivamb/netflix-shows
+   
+
+3. Relevant Information:
+    Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
+
+4. Number of Instances: 8807 for netflix_titles.csv
+
+5. Number of Attributes: 12 output attribute.
+
+6. Attribute information:
+
+   Input variables:
+   
+   1. SHOW-ID - Unique id of each show (not much of a use for us in this notebook)
+   2. TYPE - The category of a show, can be either a Movie or a TV Show
+   3. TITLE - Name of the show
+   4. DIRECTOR - Name of the director(s) of the show
+   5. CAST - Name of the show
+   6. COUNTRY - Name of countries the show is available to watch on Netflix
+   7. DATE ADDED - Date when the show was added on Netflix
+   8. RATING - Show rating on netflix
+   9. RELEASE YEAR - Release year of the show
+   10. DURATION - Time duration of the show
+   11. LISTED IN - Genre of the show
+   12. DESCRIPTION - description about the movie or tv show
+
+7. Missing Attribute Values: There are several missing values in some categorical attributes, all coded with the "NAN" label. These missing values can be treated as a possible class label or using deletion or imputation techniques. 
